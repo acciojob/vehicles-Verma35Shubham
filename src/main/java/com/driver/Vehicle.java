@@ -23,6 +23,17 @@ public class Vehicle {
     }
 
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCurrentDirection(int currentDirection) {
+        this.currentDirection = currentDirection;
+    }
 
     public int getCurrentDirection() {
         return currentDirection;
